@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/login.js"></script>
+    </head>
+    <body>
+       <center>
+       		<table>
+       			<tr>
+       				<td>user name </td>
+       				<td><input type="text" id="user_name" onblur="javascript:isUserNameAvailable(this.value)"></td>
+       				<td><div id ="user_name_validity"></div></td> 
+       			</tr>
+       			<tr>
+       				<td>full name</td>
+       				<td><input type="text" id="full_name"></td>
+       			</tr>
+       			<tr>
+       				<td>last name</td>
+       				<td><input type="text" id="last_name"></td>
+       			</tr>
+       			<tr>
+       				<td>password</td>
+       				<td><input type="text" id="password"></td>
+       			</tr>
+       			<tr>
+       				<td><button id="register_btn" onClick="javascript:register()">register</button></td>
+       				<td><button id="clear">clear</button></td>
+       			</tr>
+       		</table>
+       </center>
+    </body>
+</html>
