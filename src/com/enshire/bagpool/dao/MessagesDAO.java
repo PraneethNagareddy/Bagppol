@@ -30,4 +30,11 @@ public class MessagesDAO {
 		inboxMap.put(message.getTo(), inboxList);
 		sentMap.put(message.getFrom(), inboxList);
 	}
+	
+	public List<Thread> getThreads(String userName){
+		List<Thread> list = new ArrayList<Thread>();
+		
+		//list.add();
+		return list;
+	}
 }
